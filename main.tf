@@ -7,4 +7,5 @@ resource "aws_instance" "myec2" {
   tags = {
 
      name = "myubuntu"
+    }
   }
