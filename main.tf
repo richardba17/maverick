@@ -4,8 +4,6 @@ resource "aws_instance" "myec2" {
 
   instance_type = "t2.micro"
 
-  vpc_security_group_ids = [aws_security_group.mysg1.id]
-
   tags = {
 
      name = "myubuntu"
